@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fdf5e6;
+}
+
+.header {
+    width: 100%;
+    background-color: #d9534f;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+    box-shadow: 0 2px 5px black;
+}
+
+.main {
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 4px 15px black;
+    width: 500px;
+    margin: 50px auto;
+    border-radius: 15px;
+}
+
+.main .discount {
+    position: sticky;
+    background-color: #76b947;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 2px 5px black;
+    border-radius: 15px;
+    text-align: center;
+    padding: 4px;
+}
+
+.main h2 {
+    color:  #e63946;
+    text-align: center;
+}
+
+.main h3 {
+    padding: 2px;
+    color: #f19c1f;
+    border-left: 5px solid #f19c1f;
+    text-align: center;
+}
+
+table {
+    width: 40%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    max-height: 100px;
+}
+
+td.black{
+    background-color: black;
+}
+
+td.kuning{
+    background-color: #ffcc00;
+}
+
+td.outline {
+    background-color: #402D26;
+}
+
+td.merah {
+    background-color: #e63946;
+}
