@@ -17,40 +17,68 @@ body {
     background-color: white;
     position: relative;
     z-index: 1;
-    box-shadow: 0 4px 15px black;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.25);
     width: 500px;
-    margin: 50px auto;
+    margin: 30px auto;
     border-radius: 15px;
+    padding: 18px 12px 20px;
 }
 
 .main .discount {
     position: sticky;
+    top: 0;
+    z-index: 2;
+    margin: -18px -12px 8px;
     background-color: #76b947;
     color: white;
     font-weight: bold;
-    box-shadow: 0 2px 5px black;
-    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.25);
+    border-radius: 12px 12px 0 0;
     text-align: center;
-    padding: 4px;
+    padding: 10px 12px;
 }
 
 .main h2 {
-    color:  #e63946;
+    color: #e63946;
     text-align: center;
+    margin: 14px 0 10px;
 }
 
 .main h3 {
-    padding: 2px;
     color: #f19c1f;
-    border-left: 5px solid #f19c1f;
-    text-align: center;
+    border-left: 3px solid #f19c1f;
+    padding: 10px 12px;
+    margin: 15px 0 8px;
+    text-align: left;
+    background-color: white;
+}
+
+.main p, .main ul, .main ol {
+    padding: 0 16px 16px;
+    margin: 0;
+    color: #444;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.main ul, .main ol {
+    padding-left: 36px;
+}
+
+.main ul li, .main ol li {
+    margin: 6px 0;
+}
+
+.main .kosong {
+    border-top: 1px dashed #ccc;
+    margin: 0px, 20px, 0px, 20px;
 }
 
 table {
-    width: 40%;
+    width: 70%;
     border-collapse: collapse;
     margin: 0 auto;
-    max-height: 100px;
+    min-height: 70px;
 }
 
 td.black{
@@ -67,4 +95,18 @@ td.outline {
 
 td.merah {
     background-color: #e63946;
+}
+
+.secret {
+    position: fixed;
+    background-color: #402D26;
+    color: white;
+    z-index: 0;
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px 30px 10px 30px;
+}
+
+.secret:hover {
+    background-color: #f19c1f;
 }
